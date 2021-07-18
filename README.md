@@ -1,2 +1,2 @@
 # Planets Vs Zombies Cheat Demo
-![alt text](./demo.png)
+![Demo](https://github.com/SupraL/PlanetsVsZombiesDemo/raw/master/demo.PNG)
