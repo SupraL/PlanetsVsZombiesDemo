@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="26">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"無限陽光"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0009d590</Address>
+      <Offsets>
+        <Offset>5560</Offset>
+        <Offset>768</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"Remove Time Interval"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+PlantsVsZombies.exe+8728c:
+add dword ptr[edi+24],63
+
+[DISABLE]
+PlantsVsZombies.exe+8728c:
+add dword ptr[edi+24],01
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
